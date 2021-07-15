@@ -1,0 +1,119 @@
+
+/*.nav {
+  display: block !important;
+}*/
+.nav-item {
+text-align: center;
+border: 1px;
+border-style: solid;
+border-color: #000000;
+}
+
+
+.navbar-toggler {
+margin:  10px;
+border-color: #7e7e7e !important;
+border-style: solid;
+border: 5px;
+
+}
+
+.men-a{
+border-style: none;
+border-width: 0px;
+}
+
+
+.menu{
+border: 0px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.bg-navi {
+  background-color: #c1c1c1 !important;
+  border: 1px;
+  border-style: solid;
+}
+
+p {
+margin-left: 25px;
+margin-right: 25px;
+background-color: #c1c1c1 !important;
+}
+
+
+.navbar-brand{
+margin: 25px !important;
+font-size-adjust: 25px;
+
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-sm .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-sm .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-sm .navbar-collapse {
+    display: flex !important;
+
+    flex-basis: auto;
+  }
+  .navbar-expand-sm .navbar-toggler {
+    display: flex;
+
+  }
+}
+
+/*this above is what is making the menu show up*/
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+    flex-basis: flex;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+
+/*changed display to none*/
+
+
+
+
+
