@@ -65,7 +65,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
     // TODO: STEP 0: Look over the code from
     // *** start ***
-    // to
     // *** finish ***
     // below.
     // We changed this code to retrieve all categories from the server instead of
